@@ -127,6 +127,10 @@ Configuring is as easy as changing the options passed to `./configure` in [scrip
 Run the builds in a container via:
 
 ```
+$ cd ..
+$ git clone https://github.com/edenhill/librdkafka
+$ git clone https://github.com/brg-liuwei/ngx_kafka_module
+$ cd -
 $ make build
 ```
 
